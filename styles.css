@@ -1,0 +1,66 @@
+body {
+    background-color: #F6F6F6;
+}
+.title-img {
+    float: right;
+    border-radius: 10%;
+    margin-bottom: 20px;
+}
+.title {
+    margin-left: 70px;
+    margin-top: 70px;
+}
+.name {
+    font-size: 85px;
+    text-align: left;
+    color: #333446;
+    letter-spacing: 2.5px;
+}
+.info {
+    text-align: left;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+h2.info {
+    color: #332D56;
+}
+p.info {
+    font-size: 20px;
+    color: #332D565;
+    margin-top: 100px;
+    letter-spacing: 7px;
+}
+@media (max-width: 600px) {
+    .title-img {
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+    .title {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .name {
+        font-size: 50px;
+        margin-top: 15px;
+    }
+}
+.my-img {
+    border-radius: 10px;
+    margin-top: 250px;
+    margin-left: 25%;
+    margin-bottom: 100px;
+    float: left;
+}
+.me p{
+    margin-top: 150px;
+    clear: right;
+    display: inline-block;
+    margin-left: 50px;
+    width: 35%;
+    font-family: sans-serif;
+    letter-spacing: 1.5px;
+}
+.skills {
+    clear: left;
+}
